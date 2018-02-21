@@ -11,7 +11,7 @@ $(document).ready(function () {
 
     // initialize global variables and declare local variables to maniplate the DOM
     function startGame() {
-        // Generate a random number to match and display on page
+        // Generate a random number between 19 and 120 to match and display on page
         numberToMatch = Math.floor((Math.random() * 101) + 19);
         $('#random-number').html(numberToMatch);
 
