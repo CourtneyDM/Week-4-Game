@@ -63,20 +63,21 @@ body {
     width: 64px;
 }
 
-.score-box {
+.score-box p,
+#score-display {
+    background-color:rgb(7, 181, 204);
+    box-sizing: border-box;
+    color: #FFF;
     width: 256px;
+
 }
 
 .score-box p {
-    background-color:rgb(7, 181, 204);
-    color: #FFF;
     margin: 10px 0;
     padding: 5px 0 5px 5px;
 }
 
 #score-display {
-    background-color:rgb(7, 181, 204);
-    color: #FFF;
     height: 100px;
     margin-bottom: 20px;
     padding-bottom: 10px;    
